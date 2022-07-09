@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "clean": "rimraf dist",
     "preview": "vite preview",
     "test": "jest",
     "test:ci": "jest --coverage --silent --ci",
