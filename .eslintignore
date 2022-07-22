@@ -5,3 +5,4 @@ tsconfig.node.json
 .eslintrc.js
 .babel.config.js
 vite.config.js
+config

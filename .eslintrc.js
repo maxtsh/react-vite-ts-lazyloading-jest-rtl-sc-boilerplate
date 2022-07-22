@@ -29,6 +29,7 @@ module.exports = {
       "error",
       { allowTestingFrameworkSetupHook: "beforeEach" },
     ],
+    "react/prop-types": 0,
     // "@typescript-eslint/no-unsafe-return": "off",
     // "@typescript-eslint/no-unsafe-argument": "off",
     // "@typescript-eslint/no-unsafe-call": "off",
