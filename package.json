@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "vite",
-    "build": "tsc && vite build",
-    "clean": "rimraf dist",
+    "build": "npm run clean && tsc && vite build",
+    "clean": "rimraf build",
     "preview": "vite preview",
     "test": "vitest",
     "test:ci": "vitest run --coverage --silent --ci",
