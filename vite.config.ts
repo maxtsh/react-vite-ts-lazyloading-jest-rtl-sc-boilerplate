@@ -10,8 +10,11 @@ import process from "process";
 export default defineConfig({
   plugins: [react()],
   root: process.cwd(),
-  base: "/",
-  publicDir: "/public",
+  base: "./",
+  publicDir: "./public",
+  build: {
+    outDir: "./dist",
+  },
   resolve: {
     mainFields: ["module", "jsnext:main", "jsnext"],
     extensions: [".mjs", ".js", ".ts", ".jsx", ".tsx", ".json"],

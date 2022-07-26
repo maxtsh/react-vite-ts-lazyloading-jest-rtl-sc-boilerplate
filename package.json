@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "vite",
-    "build": "tsc && vite build",
+    "build": "npm run clean && tsc && vite build",
     "clean": "rimraf dist",
     "preview": "vite preview",
     "test": "vitest",
