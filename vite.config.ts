@@ -13,7 +13,7 @@ export default defineConfig({
   base: "./",
   publicDir: "./public",
   build: {
-    outDir: "./build",
+    outDir: "./dist",
   },
   resolve: {
     mainFields: ["module", "jsnext:main", "jsnext"],

@@ -6,7 +6,7 @@
   "scripts": {
     "start": "vite",
     "build": "npm run clean && tsc && vite build",
-    "clean": "rimraf build",
+    "clean": "rimraf dist",
     "preview": "vite preview",
     "test": "vitest",
     "test:ci": "vitest run --coverage --silent --ci",
